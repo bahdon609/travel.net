@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.input-field {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.btn_tag {
+    background-color: #00aeef;
+    border: 1px solid #00aeef;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: .3s;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.btn_small_tag {
+    background-color: #17A2B8;
+    border: 1px solid #17A2B8;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: .3s;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+
+
+
+.btn_primary {
+   background-color: #0256a6;
+    border: 1px solid #0256a6;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 4px 18px;
+    border-radius: 8px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: .3s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn_primary:hover {
+    background-color: black;
+   
+}
+
+.holiday__bg--img,
+.hajj__bg--img {
+    width: 100%;
+    background-image: url("../src/assets/banner/hpli.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+.holidayContent {
+    width: 100%;
+    margin: auto;
+}
+
+ .w_100{
+    width: 100% !important;
+ }
+
+ .swiper-slide {
+    transition: transform 0.5s ease; 
+  }
+  
+  .swiper-slide.zoom-effect {
+    transform: scale(1.1);
+    transition: all; 
+  }
+
+
+.zoomY {
+  animation: zoomIn 5s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.transition-opacity {
+  transition: opacity 1s ease-in-out;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
